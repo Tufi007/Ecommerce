@@ -1,0 +1,7 @@
+hellooo
+CREATE TABLE suppliers
+  AS (SELECT companies.id, companies.address, categories.cat_type
+      FROM companies, categories
+      WHERE companies.id = categories.id
+      AND companies.id > 1000);
+      INSERT INTO `product` (`id`, `name`, `priceofitem`, `info`, `additional`, `total`) VALUES ('5', 'wefjf', '12313', 'dfgsdr', 'dfgsedrg', '23423'), ('34', 'sdfdsfg', '234', 'sdfasd', 'sdfer', '234');
